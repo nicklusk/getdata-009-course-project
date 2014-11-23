@@ -41,14 +41,21 @@ Observation attributes have had their parenthesis removed by the run_analysis.R 
 ### Variable Names
 
 `data_train` Data frame of X_train.txt contents
+
 `data_test` Data frame of X_test.txt contents
+
 `label_train` Data frame of y_train.txt contents
+
 `label_test` Data frame of y_test.txt contents
+
 `subject_train` Data frame of subject_train.txt contents
+
 `subject_test` Data frame of subject_test.txt contents
 
 `data_table` Data frame of `data_train` and `data_test` created with rbind
+
 `label_table` Data frame of `label_train` and `label_test` created with rbind
+
 `subject_table` Data frame of `subject_train` and `subject_test` created with rbind
 
 `features` Data frame of features.txt contents
@@ -60,6 +67,7 @@ Observation attributes have had their parenthesis removed by the run_analysis.R 
 `tidyLikeBillyMays` Data frame of `subject_table`, `label_table` and `data_table` created with cbind
 
 `TidyNumberTwo` Data frame created with dimensions retrieved from `tidyLikeBillyMays`
+
 `tidyDataCleanAverage` The final data frame with only the elements required per the project instructions
 
 
